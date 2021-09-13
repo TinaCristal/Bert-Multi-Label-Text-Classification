@@ -52,6 +52,7 @@ class BertProcessor(object):
     def get_test(self,lines):
         return lines
 
+    #输入自己的标签
     def get_labels(self):
         """Gets the list of labels for this data set."""
         return ["toxic","severe_toxic","obscene","threat","insult","identity_hate"]
